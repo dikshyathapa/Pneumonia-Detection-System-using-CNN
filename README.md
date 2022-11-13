@@ -4,6 +4,8 @@ By using chest X-ray images ,pneumonia detection can be done by using convolutio
 
 This trained model helps us detect whether a patient is suffering from pneumonia or the result is normal. The model type that we used in this project is “sequential” which is the easiest way to build a model in keras. It allows to build a model layer by layer. After all data are loaded and preprocessing is done convolution neural network (CNN) is defined. Kernel size is a size of our filter for our convolution. Firstly, a convolution layer is used with input of 62*62 size of image which extracts features from the image or parts of an image. Max pooling layer is used as the second layer of the network that reduces the dimensionality of each feature to focus on the most important elements. There are several rounds of convolution and max pooling used. A fully connected layer that takes a flattened form of the features identified in the previous layers, and uses them to make a prediction about the image. Dense layer is a layer type we used in for our output layer. Finally, two dense layer is used and the input is given to the final fully connected layer which results in two classes. also evaluated the confusion matrix to see how accurate our model is. Pneumonia Detection using Convolution Neural Network focuses on detecting pneumonia with the help of chest X-ray images. In this Machine Learning project, I build a pneumonia detection system. This system is used to detect whether a person has pneumonia or not based on an X-ray image of their chest. This project is also proposed to analyze the different kinds of pre-existing models and their tools for detecting a disease from radiology. Our system takes input as an image and detect if the person has pneumonia or not
 
+                                             PNEUMONIA WEB APP
+
 ![image](https://user-images.githubusercontent.com/113717229/201525342-212ea179-5085-4008-9997-c123d3dc2dc0.png)
 
 
@@ -18,6 +20,11 @@ This trained model helps us detect whether a patient is suffering from pneumonia
 
 
 
+
+
+
+                                       CHEST X-RAY IMAGES
+
 ![image](https://user-images.githubusercontent.com/113717229/201525434-5ef65525-ea83-43df-a31d-9404ccb6ca5d.png)
 
 
@@ -25,4 +32,9 @@ This trained model helps us detect whether a patient is suffering from pneumonia
 
 
 ![image](https://user-images.githubusercontent.com/113717229/201525454-5a05ec90-6ee9-4f40-8e96-2a04e487fcec.png)
+
+
+
+
+ For this project, we have taken datasets from Kaggle. The dataset is organized into 3 folders (train, test, Val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal). For the analysis of chest x-ray images, training dataset contains the training data/images for teaching our model. Validation dataset contains images which we used to validate our model. The purpose of this data set is to prevent our model from Overfitting. All chest radiographs were initially screened for quality control by removing all low quality or unreadable scans. The diagnoses for the images were then graded by two expert physicians before being cleared for training the AI system. In order to account for any grading errors, the evaluation set was also checked by a third expert  (Kosovan, 2018) https://www.kaggle.com/kosovanolexandr/keras-nn-x-ray-predict-pneumonia-86-54 
 
