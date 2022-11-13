@@ -6,3 +6,23 @@ This trained model helps us detect whether a patient is suffering from pneumonia
 
 ![image](https://user-images.githubusercontent.com/113717229/201525342-212ea179-5085-4008-9997-c123d3dc2dc0.png)
 
+
+
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/113717229/201525401-d9508aa2-556e-43a9-a874-e769e0577d39.png)
+
+
+
+
+![image](https://user-images.githubusercontent.com/113717229/201525434-5ef65525-ea83-43df-a31d-9404ccb6ca5d.png)
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/113717229/201525454-5a05ec90-6ee9-4f40-8e96-2a04e487fcec.png)
+
